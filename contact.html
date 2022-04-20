@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us&ndash;Eason&apos;s Sweets Gluten Free Bakery</title>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script src="java.js"></script>
+        <style>
+        @import url(styles.css);
+        </style>
+    </head>
+    <body>
+    <div class="container">   
+        <header>
+            <div id="logo">
+                <br><br><h1>Eason&apos;s Sweets</h1>
+            </div> 
+            <nav>
+                <div id="home">
+                <a href="index.html">Home Page</a>
+                </div> 
+                <div id="products">
+                <button class="dropdown">Our Products</button>
+                    <div class="collapse">
+                    <h4><a href="Products/Items/cookies.html">Cookies</a></h4>
+                    <h4><a href="Products/Items/cupcakes.html">Cupcakes</a></h4>
+                    <h4><a href="Products/Items/donuts.html">Donuts</a></h4>
+                    <h4><a href="Products/Items/muffins.html">Muffins</a></h4>
+                    <h4><a href="Products/Items/specials.html">Specials</a></h4>
+                    </div>
+                </div>
+                <div id="about">
+                <a href="about_us.html">About Us</a>
+                </div> 
+                <div id="contact">
+                <a href="contact.html">Contact Us</a>
+                </div>
+            </nav>
+        </header>  
+
+        <main>
+        <h2>Contact Us</h2>
+        <div id="submission">
+        <p><strong>Phone Number:</strong> 1-800-863-0001<br>
+        <strong>E-Mail:</strong> easonssweets@yahoo.com</p>
+        </div>
+        <div id="form">
+        <form method="POST">
+            <ul>
+                <li><label for="form-name"></label>First Name<br><input type="text" name="customernamefirst" id="form-name"></li>
+                <li><label for="form-name"></label>Last Name<br><input type="text" name="customernamelast" id="form_name"></li>
+                <li><label for="form-telephone"></label>Phone Number<br><input type="text" name="phone" id="form-telephone"></li>
+                <li><label for="form-email"></label>E-Mail<br><input type="text" name="email" id="form-email" required></li>
+                <li><label for="form-instructions">Message<br></label>
+                <textarea name="message" maxlength="500" placeholder="No more than 500 characters long" id="form-instructions">
+                </textarea></li>
+            </ul>
+
+            <input type="submit">
+            <input type="reset">
+
+        </form>
+        </div>
+
+        <div id="text">
+            <br><br><br>
+            <strong>IMPORTANT</strong>
+            <br>
+            <p>If placing an order for a special event, please let us know a week in advance. Thank you.</p>
+            <br>
+            <strong>Notes</strong>
+            <p>We are closed on Sundays</p>
+        </div>    
+        </main>
+
+        <footer>
+            <div id="footer">
+                <div class="hours">
+                <ul>
+                    <li><strong>Hours &amp; Location</strong></li>
+                    <li>Monday&ndash;Saturday 10am&ndash;6pm</li>
+                    <li>155 W Main Avenue Lakeland, FL 33860</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <ul>
+                    <li><strong>Contact Information</strong></li>
+                    <li>1-800-863-0001</li>
+                    <li>easonssweets@yahoo.com</li>
+                </ul>
+            </div>
+                <div class="disclaimer">
+                    <ul>
+                        <li>Eason&apos;s Sweets&copy; 2022</li>
+                        <li>Photo credits go to Pixabay.com and Pexels.com</li>
+                        <li><strong>Not a legitimate business! For a school project!</strong></li>
+                    </ul>
+                </div>
+            </div>    
+            </footer>
+
+    </div>
+    </body>    
+</html>
